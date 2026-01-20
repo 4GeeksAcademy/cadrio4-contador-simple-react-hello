@@ -9,3 +9,71 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+.bigCounter div {
+  display: inline-block;
+  font-size: 40px;
+  width: 100px;
+  line-height: 100px;
+  height: 100px;
+  background-color: rgb(15, 12, 12);
+  color: rgb(169, 9, 9);
+  border-radius: 5px;
+   text-shadow:
+     0 0 5px rgb(255, 60, 60),
+   
+
+
+}
+
+@font-face {
+  font-family: 'BladeRunner';
+  src: url('../fonts/BladeRunner.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+.bigCounter {
+  font-family: 'BladeRunner';
+  font-size: 40px;
+  text-shadow: 0 0 5px red;
+  letter-spacing: 3px;
+  text-align: center;
+}
+
+.counter-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.digital-btn {
+  background-color: rgb(69, 22, 255);
+  color: rgb(255, 60, 60);
+  font-family: monospace;
+  font-size: 18px;
+  letter-spacing: 3px;
+  padding: 10px 25px;
+  border: 2px solid rgb(69, 22, 255);
+  border-radius: 6px;
+  cursor: pointer;
+  box-shadow: 0 0 8px rgb(69, 22, 255);
+  transition: all 0.25s ease;
+    text-shadow:
+     0 0 5px rgb(60, 109, 255),
+     0 0 10px rgb(60, 128, 255);
+}
+
+.digital-btn:hover {
+  
+  background-color: rgb(255, 60, 60);
+  color: rgb(69, 22, 255);
+  box-shadow: 0 0 15px red;
+  
+}
+
+.digital-btn:active {
+  transform: scale(0.95);
+}
